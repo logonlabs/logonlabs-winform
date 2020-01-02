@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFrameworks>net472;net471;net462</TargetFrameworks>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <ApplicationIcon />
+    <StartupObject />
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Logon Labs</Authors>
+    <PackageProjectUrl>https://logonlabs.com/docs/api/</PackageProjectUrl>
+    <PackageTags>Logon Labs SSO Identity SAML OAUTH Microsoft Google Facebook Okta LinkedIn Slack Quickbooks Github OneLogin Winforms</PackageTags>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Platforms>AnyCPU;x64</Platforms>
+    <CefSharpAnyCpuSupport>true</CefSharpAnyCpuSupport>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="CefSharp.WinForms" Version="75.1.143" />
+    <PackageReference Include="LogonLabs.Client" Version="1.5.0.88" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+</Project>
